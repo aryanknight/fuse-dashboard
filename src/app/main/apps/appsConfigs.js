@@ -12,6 +12,7 @@ import HelpCenterAppConfig from './help-center/HelpCenterAppConfig';
 import ProfileAppConfig from './profile/profileAppConfig';
 import CrudAppConfig from './crud/CrudAppConfig';
 import TodoReduxConfig from './todo-redux/TodoReduxConfig';
+import TodoContextConfig from './todo-context/TodoContextConfig';
 
 const appsConfigs = [
   MailboxAppConfig,
@@ -27,7 +28,8 @@ const appsConfigs = [
   HelpCenterAppConfig,
   ProfileAppConfig,
   CrudAppConfig,
-  TodoReduxConfig
+  TodoReduxConfig,
+  TodoContextConfig
 ];
 
 export default appsConfigs;
